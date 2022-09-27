@@ -1,0 +1,6 @@
+Code de Theo Billet :
+CMakeList et main.cpp présents. Code bien structuré et compréhensible. Mais un fichier pdf est présent dans le dossier src.
+
+Code de Quentin Guyot:
+CMakeList et main.cpp présents. Code bien structuré et compréhensible
+

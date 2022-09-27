@@ -1,0 +1,5 @@
+Code de Theo Billet :
+CMakeList et main.cpp présents. Bonus pour la bonne gestion de la vérification des arguments passés à l'éxécutable.
+
+Code de Quentin Guyot:
+CMakeList et main.cpp présents. Bonus pour la bonne gestion de la vérification des arguments passés à l'éxécutable.

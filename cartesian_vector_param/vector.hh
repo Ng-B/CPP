@@ -17,18 +17,31 @@ public:
 
 // Add suitable constructors
     Vector();
-    Vector(/*args*/);
-    // possibly more
+    Vector(std::initializer_list<value>);
+
+    Vector& operator+=(const Vector& rhs);
+    Vector& operator-=(const Vector& rhs);
+
+
 
 // Public Member functions here
     Vector& operator+=(const Vector& rhs);
-    // More to go
+    Vector& operator-=(const Vector& rhs);
+
+    Vector& operator+=(const value& rhs);
+    Vector& operator*=(const value& rhs);
 
 private:
-// Private Member functions here (if necessary)
-
-// Member variables are ALWAYS private, and they go here
-
+    value data[NDIM];
 };
 
+
+std::ostream& operator<<(std::ostream &stream, const Vector& vec);
+
+Vector operator+(const Vector& vect_1, const Vector& vect_2);
+
+Vector operator*(const Vector& vect_1, const value& vect_2);
+Vector operator*(const value& vect_1, const Vector& vect_2);
+
 // Nonmember function operators go here
+value operator*(const Vector& vect_1, const Vector& vect_2);

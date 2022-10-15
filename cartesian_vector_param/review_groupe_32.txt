@@ -1,0 +1,5 @@
+Code de Theo Billet :
+Tous les operateurs et les deux constructeurs sont présents
+
+Code de Simon Defoort:
+Tous les operateurs et les deux constructeurs sont présents

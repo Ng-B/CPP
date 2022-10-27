@@ -25,9 +25,6 @@ public:
 
 
 // Public Member functions here
-    Vector& operator+=(const Vector& rhs);
-    Vector& operator-=(const Vector& rhs);
-
     Vector& operator+=(const value& rhs);
     Vector& operator*=(const value& rhs);
 

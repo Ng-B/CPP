@@ -1,9 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
+project(cartesian_vector_param)
 
-project(TPCPP)
+set(CMAKE_CXX_STANDARD 14)
 
-add_executable(main main.cc)
-
-add_library(sources SHARED main.cc vector.cc)
-
-target_link_libraries(main sources)
+add_executable(main vector.cpp main.cpp)

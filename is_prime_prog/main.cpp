@@ -1,24 +1,29 @@
 #include <iostream>
-
-bool is_prime(int x)
+#include <string>
+using namespace std;
+long long int is_prime(long long int n) 
 {
-    if (x <= 1) {
-        return false;
-    }
+  bool is_prime = true;
+  if (n <= 1) {
+    cout << n << " is a prime: False\n";
+    return 0;
+  }
 
-    for (int i = 2; i <= x/2; ++i) {
-        if (x % i == 0) {
-            return false;
-        }
+  for (long long int i = 2; i <= n/2; ++i) {
+    if (n % i == 0) {
+        cout << n << " is a prime: False\n";
+        return 0;
     }
-    return true;
+  }
+
+  cout << n << " is a prime: True\n";
+  return 0;
 }
-
-int main(int argc, char** argv)
+int main(int argc, char *argv[])
 {
-    for( int i = 1; i < argc; i++)
-    {
-        std::cout << argv[i] << " is a prime: " << (is_prime(atoi(argv[i])) == 1 ? "True" : "False") << "\n";
+    long long int i;
+    while (cin >> i) {
+        is_prime(i);
     }
     return 0;
 }

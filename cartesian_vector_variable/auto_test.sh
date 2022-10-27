@@ -1,16 +1,3 @@
-
-Name
-auto_test.sh
-config.h
-main.cc
-main.pdf
-vector.hh
-	5 files
-
-Nextcloud – a safe home for all your data
-
-Get your own free account
-
 # ATTENTION NDIM is expected to be equal to 2,
 # value is ecpected to be int
 
@@ -53,5 +40,3 @@ else
     echo "Diff is"
     echo $rr
 fi
-
-

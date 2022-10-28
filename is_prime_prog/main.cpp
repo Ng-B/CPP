@@ -19,6 +19,7 @@ long long int is_prime(long long int n)
   cout << n << " is a prime: True\n";
   return 0;
 }
+
 int main(int argc, char *argv[])
 {
     long long int i;

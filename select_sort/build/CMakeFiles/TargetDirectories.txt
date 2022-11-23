@@ -1,0 +1,3 @@
+/home/naod/Documents/INGAPP2/C++/CPP/select_sort/build/CMakeFiles/rebuild_cache.dir
+/home/naod/Documents/INGAPP2/C++/CPP/select_sort/build/CMakeFiles/edit_cache.dir
+/home/naod/Documents/INGAPP2/C++/CPP/select_sort/build/CMakeFiles/main.dir
